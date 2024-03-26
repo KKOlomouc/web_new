@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="http://localhost:8080/">
+  <title>Co je nového</title>
+  <subtitle>Tell the word what you are writing about in your blog. It will show up on feed readers.</subtitle>
+  <link href="http://localhost:8080/feed.xml" rel="self" />
+  <link href="http://localhost:8080/" />
+  
+  <updated>2024-03-26T00:00:00Z</updated>
+  <id>http://localhost:8080/</id>
+  <author>
+    <name>Lene Saile</name>
+    <email>hola@lenesaile.com</email>
+  </author>
+  <entry>
+    <title>Benefice pro Klimatickou žalobu v neděli 14.4.</title>
+    <link href="http://localhost:8080/blog/benefice-pro-klimatickou-zalobu-v-nedeli-144/" />
+    <updated>2024-03-26T00:00:00Z</updated>
+    <id>http://localhost:8080/blog/benefice-pro-klimatickou-zalobu-v-nedeli-144/</id>
+    <content
+      xml:lang="cs_CZ"
+      type="html"
+      >&lt;p&gt;V neděli 14.4. pořádáme v Olomouckém Divadle na Cucky benefiční minifestival na podporu Klimatické žaloby (&lt;a href=&quot;https://www.klimazaloba.cz/&quot; rel=&quot;noopener&quot;&gt;https://www.klimazaloba.cz&lt;/a&gt;) - spolku, který se snaží právní cestou domoci implementace adaptačních a mitigačních opatření na ochranu klimatu, k nimž se ČR zavázala přistoupením k Pařížské dohodě o klimatu. Ten v současnosti dává dohromady finance potřebné na podání žaloby k Ústavnímu soudu, vzhldem k vyčerpání jiných právních možností.&lt;/p&gt;
+&lt;h2 id=&quot;na-co-se-muzete-tesit&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;http://localhost:8080/blog/benefice-pro-klimatickou-zalobu-v-nedeli-144/#na-co-se-muzete-tesit&quot;&gt;Na co se můžete těšit?&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;1600-1630-vincenc-boucek-klimaticka-zaloba&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;http://localhost:8080/blog/benefice-pro-klimatickou-zalobu-v-nedeli-144/#1600-1630-vincenc-boucek-klimaticka-zaloba&quot;&gt;16:00 - 16:30 Vincenc Bouček (Klimatická žaloba)&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Ve spolupráci s advokátní kanceláří Frank Bold Advokáti a dalšími žalobci přímo zasaženými změnou klimatu jsme připravili a podali žalobu na zodpovědná ministerstva. Dle naší žaloby a odborných posudků, které jsme si nechali vypracovat, ministerstva nepřijímají dostatečná opatření k mitigaci (omezování emisí) a adaptaci (přizpůsobení) na změnu klimatu, čímž narušují naše lidská práva a mezinárodní dohody. Cílem žaloby je přinutit zodpovědná ministerstva k přijetí ambicióznějších a efektivnějších opatření vůči změně klimatu. Žaloba je nyní v soudním procesu.”&lt;br /&gt;
+– &lt;cite&gt;Vincenc Bouček, &lt;a href=&quot;https://www.klimazaloba.cz/&quot; rel=&quot;noopener&quot;&gt;https://www.klimazaloba.cz/&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;1630-1730-madremonte-mikro-teatro;-divadlo-pro-deti-rodice-i-dospele&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;http://localhost:8080/blog/benefice-pro-klimatickou-zalobu-v-nedeli-144/#1630-1730-madremonte-mikro-teatro;-divadlo-pro-deti-rodice-i-dospele&quot;&gt;16:30 - 17:30 Madremonte (Mikro-teatro; divadlo pro děti, rodiče i dospělé)&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Divadlo pro děti a jejich rodiče s ekologickou tematikou.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“V zemi, která se jmenuje Kolumbie, je tajemné místo, kde se hory dotýkají nebes. Tam se rodí všechny vody, ze kterých pochází veškerý život, a vyprávějí o všemocné Madremonte. O pečující, milující, starostlivé, přísné, ale spravedlivé matce nás všech – matce přírodě. Vše co pro nás dělá, není samozřejmostí. Ví to i Alfonso? Alfonso potřebuje pro svůj život stále víc. Jak si s tím poradí moudrá Madremonte?”&lt;br /&gt;
+– &lt;cite&gt;Mikro-teatro, &lt;a href=&quot;https://www.mikro-teatro.cz/madremonte-7/&quot; rel=&quot;noopener&quot;&gt;https://www.mikro-teatro.cz/madremonte-7/&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;1800-1930-klimaticka-spravedlnost-remizek-a2;-4-videoreportaze-debata-s-tvurci&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;http://localhost:8080/blog/benefice-pro-klimatickou-zalobu-v-nedeli-144/#1800-1930-klimaticka-spravedlnost-remizek-a2;-4-videoreportaze-debata-s-tvurci&quot;&gt;18:00 - 19:30 Klimatická spravedlnost (Remízek, A2; 4 videoreportáže + debata s tvůrci)&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Čeká Česko klimatická spravedlnost? Ve spolupráci kulturního čtrnáctideníku A2 a TPS Remízek vznikla v produkci Barbory Aradské a Marty Martinové čtyřdílná série videoreportáží s lakonickým názvem Klimatická spravedlnost, jež tematicky pokrývá čtyři oblasti, které potřebujeme v brzké budoucnosti vyřešit tak, aby nikdo neztratil právo na zdravé životní prostředí a dobrý život. Zabývá se zacházením s vodou, využíváním energie, městským prostorem a tím nejdůležitějším – mezigeneračním dialogem, který je nezbytnou podmínkou zažehnání každé krize. Série volně doplňuje stejnojmenné tematické číslo Ádvojky, které vyšlo na podzim roku 2023. Po promítání následuje krátká debata s tvůrci a tvůrkyněmi. Sérii i tematické číslo podpořila Nadace Rosy Luxemburgové.”&lt;br /&gt;
+– &lt;cite&gt;Kulturní čtrnáctideník A2 (&lt;a href=&quot;http://advojka.cz/&quot; rel=&quot;noopener&quot;&gt;http://advojka.cz&lt;/a&gt;) a Remízek (&lt;a href=&quot;https://remizek.org/&quot; rel=&quot;noopener&quot;&gt;https://remizek.org&lt;/a&gt;)&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;2000-2100-lukas-marecek-koncert&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;http://localhost:8080/blog/benefice-pro-klimatickou-zalobu-v-nedeli-144/#2000-2100-lukas-marecek-koncert&quot;&gt;20:00 - 21:00 Lukáš Mareček (koncert)&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Hudební vystoupení olomouckého muzikanta. Má svůj &lt;a href=&quot;https://soundcloud.com/lukas-marecek&quot; rel=&quot;noopener&quot;&gt;Soundcloud&lt;/a&gt; a napsal o něm &lt;a href=&quot;https://olomoucky.denik.cz/volny-cas/vsetranny-hudebnik-marecek-nejradeji-mam-funky-a-j.html&quot; rel=&quot;noopener&quot;&gt;Olomoucký deník&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;2100-2200-networking&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;http://localhost:8080/blog/benefice-pro-klimatickou-zalobu-v-nedeli-144/#2100-2200-networking&quot;&gt;21:00 - 22:00 networking&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id=&quot;zapojte-se&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;http://localhost:8080/blog/benefice-pro-klimatickou-zalobu-v-nedeli-144/#zapojte-se&quot;&gt;Zapojte se&lt;/a&gt;&lt;/h2&gt;
+&lt;ul class=&quot;list&quot;&gt;
+&lt;li&gt;řekněte o akci svým přátelům, přítelkyním, rodině, každému, kdo by mohl mít zájem o hezkou neděli a podporu zachování prostředí, ve kterém lze žít&lt;/li&gt;
+&lt;li&gt;přidejte se na FB události (&lt;a href=&quot;https://www.facebook.com/events/1090296958755968/&quot; rel=&quot;noopener&quot;&gt;https://www.facebook.com/events/1090296958755968/&lt;/a&gt;) a nasdílejte ji&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Děkujeme a těšíme se na Vás!&lt;/p&gt;
+</content
+    >
+  </entry>
+</feed>

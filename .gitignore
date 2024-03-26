@@ -2,9 +2,9 @@
 node_modules
 
 # generated files
-dist
-src/_includes/css
-src/_includes/scripts
+#dist
+#src/_includes/css
+#src/_includes/scripts
 
 # cache
 .cache
