@@ -1,34 +1,38 @@
 module.exports = {
   top: [
     {
-      text: 'About',
-      url: '/about/'
+      text: 'Náš manifest',
+      url: '/manifest/'
     },
     {
-      text: 'Get started',
-      url: '/get-started/'
+      text: 'Kontakt',
+      url: '/kontakt/'
     },
     {
-      text: 'Built with',
-      url: '/built-with/'
-    },
-    {
-      text: 'Blog',
-      url: '/blog/'
-    },
-    {
-      text: 'Style guide',
-      url: '/styleguide/'
+      text: 'Jsme na FB',
+      url: 'https://www.facebook.com/klimakoaliceolomouc'
     }
+    // {
+    //   text: 'Built with',
+    //   url: '/built-with/'
+    // },
+    // {
+    //   text: 'Blog',
+    //   url: '/blog/'
+    // },
+    // {
+    //   text: 'Style guide',
+    //   url: '/styleguide/'
+    // }
   ],
   bottom: [
-    {
-      text: 'Imprint',
-      url: '/imprint/'
-    },
-    {
-      text: 'Privacy',
-      url: '/privacy/'
-    }
+    // {
+    //   text: 'Imprint',
+    //   url: '/imprint/'
+    // },
+    // {
+    //   text: 'Privacy',
+    //   url: '/privacy/'
+    // }
   ]
 };

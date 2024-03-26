@@ -1,0 +1,41 @@
+---
+layout: base
+---
+
+<article
+  class="region wrapper flow prose"
+  style="--region-space-top: var(--space-xl-2xl)"
+>
+  <h1 class="gradient-text">{{ title }}</h1>
+  {{ content | safe }}
+</article>
+<div class="region wrapper prose">
+  <h2>Kontaktní formulář</h2>
+  <form method="post" action="https://formcarry.com/s/ZdkXplaxupkg">
+    <div class="rendered-form">
+      <div class="formbuilder-text form-group field-name">
+        <label for="name" class="formbuilder-text-label">Jméno<span class="formbuilder-required">*</span></label>
+        <input type="text" placeholder="Jana Nováková" name="name" maxlength="60" id="name"
+               required="required" aria-required="true">
+      </div>
+      <div class="formbuilder-text form-group field-email">
+        <label for="email" class="formbuilder-text-label">E-mail<span class="formbuilder-required">*</span></label>
+        <input type="email" placeholder="jana@novakova.cz" name="email" maxlength="60" id="email"
+               required="required" aria-required="true">
+      </div>
+      <div class="formbuilder-text form-group field-subject">
+        <label for="subject" class="formbuilder-text-label">Předmět</label>
+        <input type="text" placeholder="Jana Nováková" name="subject" maxlength="60" id="subject">
+      </div>
+      <div class="formbuilder-textarea form-group field-message">
+        <label for="message" class="formbuilder-textarea-label">Zpráva<span
+                  class="formbuilder-required">*</span></label>
+        <textarea type="textarea" placeholder="Vaše zpráva" name="message" rows="5" id="message"
+                  required="required" aria-required="true"></textarea>
+      </div>
+      <div class="formbuilder-button form-group field-submit">
+        <button class="button" type="submit" class="btn-default btn" name="submit" id="submit">Odeslat</button>
+      </div>
+    </div>
+  </form>
+</div>

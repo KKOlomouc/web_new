@@ -56,6 +56,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addLayoutAlias('base', 'base.njk');
   eleventyConfig.addLayoutAlias('home', 'home.njk');
   eleventyConfig.addLayoutAlias('page', 'page.njk');
+  eleventyConfig.addLayoutAlias('contact', 'contact.njk');
   eleventyConfig.addLayoutAlias('blog', 'blog.njk');
   eleventyConfig.addLayoutAlias('post', 'post.njk');
   eleventyConfig.addLayoutAlias('tags', 'tags.njk');

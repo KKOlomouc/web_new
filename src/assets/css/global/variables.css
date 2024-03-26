@@ -6,6 +6,7 @@
 :root {
   color-scheme: light dark;
 
+  --cluster-horizontal-alignment: center;
   --gutter: var(--space-m-l);
   --border-radius: 0.3rem;
   --transition-duration: 250ms;

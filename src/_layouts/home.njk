@@ -13,6 +13,27 @@ masonry: true
 
   <article class="full | region">
     <div class="wrapper flow prose">{{ content | safe }}</div>
+    <div class="wrapper">
+{#      <a class="button" href="{{ hero_button_target }}">Náš manifest &raquo;</a>#}
+{#      <a class="button" href="{{ hero_button_target }}">Náš manifest &raquo;</a>#}
+      <ul class="cluster" role="list">
+        {% for item in hero_buttons %}
+          <li>
+            <a
+                    class="nav button"
+                    href="{{ item.url }}"
+                    {{
+                    helpers.getLinkActiveState(item.url,
+                      page.url)
+                    |
+                    safe
+                    }}
+            >{{ item.label }}</a
+            >
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
   </article>
 
   <section class="full | region">
@@ -20,9 +41,9 @@ masonry: true
       <h2>{{ blog.title }}</h2>
       <!-- blog intro text is optional. -->
 
-      {% if blog.intro %}
-        <p>{{ blog.intro }}</p>
-      {% endif %}
+{#      {% if blog.intro %}#}
+{#        <p>{{ blog.intro }}</p>#}
+{#      {% endif %}#}
 
       <ul
         class="feature | grid region"

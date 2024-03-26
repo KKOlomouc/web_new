@@ -1,0 +1,8 @@
+name: eleventy-excellent
+services:
+    node:
+        type: node:18
+        port: 8080
+        command: npm start
+        build:
+            - npm install

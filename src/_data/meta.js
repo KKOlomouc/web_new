@@ -1,11 +1,11 @@
 module.exports = {
   url: process.env.URL || 'http://localhost:8080',
-  siteName: 'Eleventy Excellent',
+  siteName: 'Klimatická koalice Olomouc',
   siteDescription:
-    'Eleventy starter built around the CSS workflow suggested by buildexcellentwebsit.es',
-  siteType: 'Person', // schema
-  locale: 'en_EN',
-  lang: 'en',
+    'Kolektiv občanů Olomoucka za odpovědný přístup ke klimatické krizi',
+  siteType: 'Organization', // schema
+  locale: 'cs_CZ',
+  lang: 'cs',
   skipContent: 'Skip to content',
   author: {
     name: 'Lene Saile', // i.e. Lene Saile - page / blog author's name. Must be set.
@@ -19,14 +19,14 @@ module.exports = {
     website: 'https://www.lenesaile.com',
     social: 'https://front-end.social/@lene'
   },
-  themeColor: '#DD4462', //  Manifest: defines the default theme color for the application
-  themeBgColor: '#FBFBFB', // Manifest: defines a placeholder background color for the application page to display before its stylesheet is loaded
+  themeColor: '#d4f1d5', //  Manifest: defines the default theme color for the application
+  themeBgColor: '#FFFFFF', // Manifest: defines a placeholder background color for the application page to display before its stylesheet is loaded
   opengraph_default: '/assets/images/template/opengraph-default.jpg', // fallback/default meta image
   opengraph_default_alt:
     'Visible content: Eleventy starter built around the CSS workflow for Cube CSS, Every Layout, Design Tokens and Tailwind for uitility, based on the concepts explained in buildexcellentwebsit.es', // alt text for default meta image
   blog: {
     // RSS feed
-    name: 'My Web Development Blog',
+    name: 'Co je nového',
     description:
       'Tell the word what you are writing about in your blog. It will show up on feed readers.',
     // feed links are looped over in the head. You may add more to the array.
