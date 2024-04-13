@@ -5,12 +5,32 @@
   <link href="http://localhost:8080/feed.xml" rel="self" />
   <link href="http://localhost:8080/" />
   
-  <updated>2024-03-27T19:37:59Z</updated>
+  <updated>2024-04-13T07:27:13Z</updated>
   <id>http://localhost:8080/</id>
   <author>
     <name>Lene Saile</name>
     <email>hola@lenesaile.com</email>
   </author>
+  <entry>
+    <title>Růst či nerůst? Přednáška a diskuse s Tadeášem Žďárským</title>
+    <link href="http://localhost:8080/blog/rust-ci-nerust-prednaska-a-diskuse-s-tadeasem-zdarskym/" />
+    <updated>2024-04-13T07:27:13Z</updated>
+    <id>http://localhost:8080/blog/rust-ci-nerust-prednaska-a-diskuse-s-tadeasem-zdarskym/</id>
+    <content
+      xml:lang="cs_CZ"
+      type="html"
+      >&lt;p&gt;Zveme Vás na přednášku a diskusi s &lt;a href=&quot;https://nerust.cz/o-nas/&quot; rel=&quot;noopener&quot;&gt;Tadeášem Žďárským&lt;/a&gt;, odborníkem na nerůst. Představí nám možné cesty z pasti trvalé honby za ziskem, která nebere ohledy na ekologickou ani klimatickou cenu.&lt;/p&gt;
+&lt;h2 id=&quot;rust-ci-nerust&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;http://localhost:8080/blog/rust-ci-nerust-prednaska-a-diskuse-s-tadeasem-zdarskym/#rust-ci-nerust&quot;&gt;RŮST ČI NERŮST?&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Žijeme v době krizí - nepřístupné bydlení, energetická chudoba, narustající nerovnosti, častější deprese či vyhoření, klimatická krize. I když se mohou zdát oddělené, jejich společným jmenovatelem je ekonomický systém, který upřednostňuje růst a zisk na úkor naplnění potřeb většiny lidí a přírody. Zatím co mezinárodní instituce jako Evropská unie nebo OSN propagují řešení tzv. zeleného růstu, hnutí nerůstu vidí v ekonomickém růstu jádro samotného problému. Lze skutečně dosáhnout zeleného růstu a je vůbec žádoucí? Jak by vypadala nerůstová ekonomika, která by uspokojovala potřeby všech uvnitř planetárních limitů? Co je větší utopie - proměnit ekonomický systém, nebo zůstat v tom současném?&lt;/p&gt;
+&lt;h2 id=&quot;tadeas-zdarsky&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;http://localhost:8080/blog/rust-ci-nerust-prednaska-a-diskuse-s-tadeasem-zdarskym/#tadeas-zdarsky&quot;&gt;TADEÁŠ ŽĎÁRSKÝ&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Studoval environmentální studia na Masarykově univerzitě v Brně a absolvoval studijní pobyty ve Výzkumném centru pro rozvoj a udržitelnost v norském Oslu a na Hampshire College v USA. V současné době je jedním z hlavních nerůstových propagátorů a odborníků. Působí v brněnské organizaci NaZemi, inicioval vznik České nerůstové pracovní skupiny, vede Nerůstovou akademii a o nerůstu přednáší, píše a připravuje vzdělávací materiály.&lt;/p&gt;
+&lt;ul class=&quot;list&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;https://nerust.cz/&quot; rel=&quot;noopener&quot;&gt;https://nerust.cz/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://nazemi.cz/&quot; rel=&quot;noopener&quot;&gt;https://nazemi.cz/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content
+    >
+  </entry>
   <entry>
     <title>Právní dílna (nejen) pro klimatické aktivitst(k)y</title>
     <link href="http://localhost:8080/blog/pravni-dilna-nejen-pro-klimaticke-aktivitstky/" />
