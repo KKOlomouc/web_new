@@ -62,5 +62,12 @@
       "path": "[[workspace]]/src/posts"
     }
   ],
-  "frontMatter.git.enabled": true
+  "frontMatter.git.enabled": true,
+  "frontMatter.content.snippets": {
+    "Eleventy Image": {
+      "description": "",
+      "body": "{% eleventyImage \".[[&mediaUrl]]\", \"[[caption]]\", \"[[alt]]\" %}",
+      "isMediaSnippet": true
+    }
+  }
 }
