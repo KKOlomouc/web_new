@@ -1,5 +1,9 @@
 # Eleventy Excellent
 
+## Run locally
+
+`docker-compose run --service-ports --rm site npm run dev:11tina` 
+
 Easy to use Eleventy starter, based on the workflow suggested by Andy Bell's [buildexcellentwebsit.es](https://buildexcellentwebsit.es/).
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/madrilene/eleventy-excellent?style=flat-square&logo=github&logoColor=white&label=GitHub%20stars)
