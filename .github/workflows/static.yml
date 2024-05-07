@@ -56,7 +56,7 @@ jobs:
         run: npx tinacms build
       - run: npm run build:11ty
       - name: Remove gitignore file
-        run: rm ./build/admin/.gitignore
+        run: rm ./dist/admin/.gitignore
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         if: github.ref == 'refs/heads/main'
