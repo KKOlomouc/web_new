@@ -1,0 +1,513 @@
+
+
+<!doctype html>
+<html lang="cs">
+  <!-- The order of elements in the head follows recommendations by Harry Roberts. learn more here: https://www.youtube.com/watch?v=MHyAOZ45vnU -->
+
+  <head>
+    <!-- charset/http-equiv/viewport -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- title -->
+    <title>
+      
+        Get started
+      
+    </title>
+
+    <!-- 4 synchronous js  -->
+    <!-- load theme toggle first to avoid color flashing on page load and inline render blocking js  -->
+    
+
+    <script>
+      // prettier-ignore
+      (()=>{var r="theme-preference",c="light",u="dark",t={value:n()};window.onload=()=>{let e=document.querySelector("#light-theme-toggle"),o=document.querySelector("#dark-theme-toggle"),d=document.querySelector("[data-theme-switcher]");d&&(d.removeAttribute("hidden"),a(),e.addEventListener("click",()=>l("light")),o.addEventListener("click",()=>l("dark")),e.setAttribute("aria-pressed",t.value==="light"),o.setAttribute("aria-pressed",t.value==="dark"))},window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",({matches:e})=>{t.value=e?"dark":"light",i()});function l(e){t.value=e,document.querySelector("#light-theme-toggle").setAttribute("aria-pressed",e==="light"),document.querySelector("#dark-theme-toggle").setAttribute("aria-pressed",e==="dark"),i()}function n(){return localStorage.getItem(r)?localStorage.getItem(r):window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}function i(){localStorage.setItem(r,t.value),a()}function a(){document.firstElementChild.setAttribute("data-theme",t.value),document.querySelector("#light-theme-toggle")?.setAttribute("aria-label",c),document.querySelector("#dark-theme-toggle")?.setAttribute("aria-label",u)}a()})();
+
+    </script>
+
+    <!--  inline base schema -->
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "http://localhost:8080#website",
+        "url": "http://localhost:8080",
+        "name": "Klimatická koalice Olomouc",
+        "description": "Kolektiv občanů Olomoucka za odpovědný přístup ke klimatické krizi",
+        "inLanguage": "cs_CZ"
+      }
+    ]
+  }
+</script>
+
+
+    <!--  inline blogpost schema  -->
+    
+
+    <link rel="stylesheet" href="/assets/css/global.css?16b6-24d7-7462" />
+
+    <!-- preloads -->
+    <link
+      rel="preload"
+      href="/assets/fonts/figtree/figtree-variable[wght].woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <link
+      rel="preload"
+      href="/assets/fonts/redhat/red-hat-display-v7-latin-900.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <!-- preloads in page data --><!-- prettier-ignore -->
+      <link rel="preload"
+            href="/assets/fonts/robotomono/robotomono-regular.woff2"
+            as="font"
+            type=font/woff2
+            crossorigin />
+    
+
+    <!-- defered js  -->
+
+    
+
+    
+
+    
+
+    
+      <!-- easteregg js, if true in meta -->
+      <script src="/assets/scripts/easteregg.js?16b6-24d7-7462" defer></script>
+    
+
+    <!-- everything else: meta tags, icons, open graph etc.  -->
+    <base href="/get-started/" />
+
+<meta
+  name="description"
+  content="
+  
+    You can use this starter as a template for your blog and you are ready to go! But there are some adjustments you have to make.
+  
+  "
+/>
+
+<meta name="theme-color" content="#d4f1d5" />
+<!-- Search Engines -->
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<!-- Made with Eleventy! -->
+<meta name="generator" content="Eleventy v2.0.1" />
+<!-- Disable automatic detection and formatting of possible phone numbers -->
+<meta name="format-detection" content="telephone=no" />
+<!-- supports both dark and light color schemes, page author prefers light as default. -->
+<meta name="color-scheme" content="light dark" />
+<!-- activates page transitions -->
+<meta name="view-transition" content="same-origin" />
+
+<!-- Helps prevent duplicate content issues -->
+<link rel="canonical" href="http://localhost:8080/get-started/" />
+
+<!-- Links to information about the author(s) of the document -->
+<link rel="author" href="humans.txt" />
+
+
+
+<!-- Open Graph meta  -->
+<meta property="og:url" content="http://localhost:8080/get-started/" />
+<meta property="og:type" content="website" />
+<meta
+  property="og:title"
+  content="Get started"
+/>
+<meta
+  property="og:image"
+  content="
+    http://localhost:8080/assets/images/template/opengraph-default.jpg
+  "
+/>
+<meta
+  property="og:image:alt"
+  content="
+    Visible content: Eleventy starter built around the CSS workflow for Cube CSS, Every Layout, Design Tokens and Tailwind for uitility, based on the concepts explained in buildexcellentwebsit.es
+  "
+/>
+<meta
+  property="og:description"
+  content="You can use this starter as a template for your blog and you are ready to go! But there are some adjustments you have to make."
+/>
+<meta property="og:site_name" content="Klimatická koalice Olomouc" />
+<meta property="og:locale" content="cs_CZ" />
+<meta property="article:author" content="Lene Saile" />
+
+<!-- Twitter specific head data was removed in v2 -->
+
+<!-- RSS Autodiscovery. Loops over meta.blog.feedLinks -->
+
+  <link
+    rel="alternate"
+    type="application/atom+xml"
+    title="Atom Feed: Klimatická koalice Olomouc"
+    href="/feed.xml"
+  />
+
+
+<!-- Favicon: https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs -->
+<link rel="icon" href="/favicon.ico" sizes="any" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
+
+  </head>
+
+  <body class="page">
+    <a href="#main" class="skip-link">Skip to content</a>
+
+<header class="wrapper" style="height: 3em;">
+  <div class="repel ontop">
+    <a
+      href="/"
+      class="logo | cluster"
+      
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 284.956 92.075" height="348" width="1077"><path d="M42.969 87.713c-2.26-.491-4.195-1.544-5.812-3.161-4.312-4.312-4.285-10.824.061-15.176 4.59-4.596 13.313-4.596 17.903 0 2.587 2.59 3.72 6.03 3.11 9.443-1.163 6.508-7.977 10.48-15.262 8.894zm6.954-5.06c.768-.475 1.572-1.284 2.06-2.074.73-1.18.801-1.498.801-3.585 0-2.088-.07-2.405-.8-3.586a6.838 6.838 0 00-2.096-2.096c-1.195-.738-1.483-.8-3.718-.8s-2.523.062-3.718.8a6.838 6.838 0 00-2.096 2.096c-.728 1.178-.8 1.5-.8 3.565 0 2 .086 2.417.728 3.51 1.336 2.273 3.231 3.182 6.339 3.042 1.701-.077 2.25-.222 3.3-.872zm44.11 5.06c-2.26-.491-4.195-1.544-5.812-3.161-4.311-4.312-4.285-10.824.062-15.176 4.59-4.596 13.313-4.596 17.903 0 2.587 2.59 3.72 6.03 3.11 9.443-1.163 6.508-7.977 10.48-15.263 8.894zm6.955-5.06c.768-.475 1.572-1.284 2.06-2.074.73-1.18.801-1.498.801-3.585 0-2.088-.07-2.405-.8-3.586a6.838 6.838 0 00-2.097-2.096c-1.194-.738-1.483-.8-3.718-.8s-2.523.062-3.718.8a6.838 6.838 0 00-2.095 2.096c-.729 1.178-.801 1.5-.801 3.565 0 2 .086 2.417.728 3.51 1.337 2.273 3.232 3.182 6.34 3.042 1.7-.077 2.249-.222 3.3-.872zm52.577 5.06c-2.26-.491-4.195-1.544-5.812-3.161-4.312-4.312-4.285-10.824.061-15.176 4.59-4.596 13.313-4.596 17.903 0 2.587 2.59 3.72 6.03 3.11 9.443-1.163 6.508-7.977 10.48-15.262 8.894zm6.954-5.06c.768-.475 1.572-1.284 2.06-2.074.73-1.18.801-1.498.801-3.585 0-2.088-.07-2.405-.8-3.586a6.838 6.838 0 00-2.096-2.096c-1.195-.738-1.483-.8-3.718-.8s-2.524.062-3.718.8a6.839 6.839 0 00-2.096 2.096c-.729 1.178-.801 1.5-.801 3.565 0 2 .087 2.417.729 3.51 1.336 2.273 3.23 3.182 6.339 3.042 1.7-.077 2.25-.222 3.3-.872zm22.093 5.157c-2.114-.351-4.103-1.41-5.437-2.894-1.997-2.22-2.102-2.757-2.223-11.296l-.105-7.474h5.334l.006 6.813c.005 6.06.06 6.932.496 7.892.917 2.02 2.738 2.91 5.498 2.688 2.126-.17 3.5-1.018 4.287-2.643.527-1.089.561-1.57.561-7.955v-6.795h5.335l-.098 7.474c-.093 7.006-.136 7.569-.695 8.976-1.675 4.219-6.727 6.251-12.96 5.214zm28.542-.115c-2.505-.543-4.342-1.586-6.096-3.46-2.09-2.235-2.748-3.938-2.748-7.109 0-1.848.134-2.724.6-3.912.698-1.78 2.952-4.364 4.705-5.391 3.754-2.2 9.924-2.483 14.172-.65l1.257.542v4.748l-1.654-.745c-4.421-1.993-8.78-1.776-11.442.568-1.568 1.38-2.238 2.79-2.238 4.708 0 3.624 2.767 6.26 6.881 6.554 2.194.157 3.992-.225 6.49-1.38l1.963-.906V85.917l-1.58.71c-3.074 1.379-7 1.786-10.31 1.068zM64.294 76.994V66.146h5.291v17.727h11.113V87.842H64.294zm51.064 0V66.146l2.315.002 2.316.002 3.424 4.108 3.424 4.109.568-.605c.313-.333 1.964-2.183 3.67-4.11l3.101-3.507h4.466v21.696h-5.282l-.072-6.65-.07-6.65-3 3.343c-1.65 1.838-3.166 3.343-3.368 3.343-.202 0-1.65-1.507-3.217-3.348l-2.85-3.347-.071 6.655-.071 6.654H115.358zM73.396 57.02c-2.26-.491-4.195-1.544-5.812-3.161-4.312-4.311-4.285-10.823.061-15.176 4.59-4.595 13.313-4.595 17.903 0 2.587 2.59 3.72 6.031 3.11 9.443-1.163 6.508-7.977 10.48-15.262 8.894zm6.954-5.06c.768-.474 1.572-1.283 2.06-2.073.73-1.18.801-1.498.801-3.586s-.07-2.405-.8-3.586a6.838 6.838 0 00-2.096-2.095c-1.195-.74-1.483-.801-3.718-.801s-2.523.062-3.718.8a6.838 6.838 0 00-2.096 2.096c-.728 1.179-.8 1.5-.8 3.565 0 2 .086 2.417.728 3.51 1.336 2.273 3.231 3.182 6.339 3.042 1.701-.077 2.25-.222 3.3-.871zm104.346 5.042c-2.505-.543-4.343-1.586-6.096-3.46-2.09-2.235-2.749-3.937-2.749-7.109 0-1.848.135-2.723.6-3.911.698-1.781 2.953-4.365 4.705-5.392 3.754-2.2 9.924-2.483 14.173-.65l1.256.542v4.748l-1.653-.745c-4.421-1.992-8.78-1.776-11.443.568-1.567 1.38-2.238 2.791-2.238 4.708 0 3.624 2.768 6.26 6.882 6.554 2.193.157 3.991-.225 6.49-1.379l1.962-.907v4.656l-1.579.708c-3.074 1.38-7 1.787-10.31 1.07zm-147.654-10.7V35.453h5.28l.072 4.759.072 4.759 4.1-4.742 4.102-4.743 3.557-.016 3.558-.017-.808.86c-2.169 2.309-8.556 9.757-8.556 9.977 0 .223 6.448 7.76 8.555 10l.809.86-3.558-.019-3.557-.018-4.101-4.753-4.101-4.752-.072 4.77-.073 4.771h-5.28zm62.08 5.357a3038.51 3038.51 0 004.413-10.852l2.166-5.361 3.15.07 3.148.07 2.827 6.482c1.554 3.565 3.67 8.417 4.703 10.782l1.878 4.299h-5.725l-.853-2.117-.853-2.116h-9.887l-.77 2.116-.769 2.117h-5.677zm12.913-3.291c-.72-2.269-3.139-7.622-3.307-7.319-.316.569-2.895 7.39-2.895 7.656 0 .133 1.437.242 3.193.242 3.164 0 3.191-.005 3.01-.58zm19.463-2.067V35.454h5.292v17.727h11.112V57.15h-16.404zm27.252 0V35.454h5.292V57.15h-5.292zm49.742 0V35.454h15.61V39.423H213.783v4.498h9.79V47.89h-9.79v5.291h10.584V57.15h-15.875zM37.042 15.61V4.762h5.28l.072 4.8.072 4.8 4.18-4.8 4.179-4.8h3.295c1.812 0 3.295.06 3.295.13 0 .073-1.995 2.408-4.432 5.192-2.438 2.783-4.47 5.224-4.517 5.424-.047.2 1.947 2.68 4.432 5.512 2.484 2.833 4.517 5.215 4.517 5.294 0 .08-1.483.144-3.295.144h-3.295l-4.18-4.8-4.18-4.799-.071 4.8-.073 4.8h-5.28zm175.17 10.437c-2.505-.543-4.342-1.586-6.095-3.46-2.09-2.235-2.749-3.938-2.749-7.109 0-1.848.134-2.724.6-3.912.698-1.78 2.952-4.364 4.705-5.391 3.754-2.2 9.924-2.483 14.172-.65l1.257.542v4.748l-1.654-.745c-4.42-1.992-8.78-1.776-11.442.568-1.567 1.38-2.238 2.79-2.238 4.708 0 3.624 2.768 6.26 6.882 6.554 2.193.157 3.991-.225 6.489-1.38l1.963-.906V24.269l-1.58.71c-3.074 1.379-7 1.786-10.31 1.068zm20.886-10.437V4.762h5.28l.072 4.8.072 4.8 4.18-4.8 4.18-4.8h3.294c1.812 0 3.295.06 3.295.13 0 .073-1.995 2.408-4.432 5.192-2.437 2.783-4.47 5.224-4.517 5.424-.047.2 1.948 2.68 4.432 5.512 2.484 2.833 4.517 5.215 4.517 5.294 0 .08-1.483.144-3.295.144h-3.295l-4.18-4.8-4.18-4.799-.071 4.8-.072 4.8h-5.28zm-168.804-.264V4.498h5.291v17.727h11.113V26.194H64.294zm24.341 0V4.498h5.292v21.696h-5.292zm14.817 0V4.498l2.315.002 2.315.002 3.424 4.108 3.424 4.109.569-.605c.312-.333 1.964-2.183 3.67-4.11l3.101-3.506h4.465v21.695h-5.282l-.07-6.65-.072-6.65-3 3.343c-1.65 1.838-3.165 3.343-3.367 3.343-.202 0-1.65-1.507-3.218-3.348l-2.85-3.347-.07 6.655-.071 6.654h-5.282zm32.446 5.358a3041.15 3041.15 0 004.414-10.852l2.166-5.361 3.15.07 3.148.07 2.827 6.482c1.554 3.565 3.671 8.417 4.704 10.781l1.877 4.3h-5.725l-.853-2.117-.853-2.117h-9.886l-.77 2.117-.77 2.117h-5.677zm12.914-3.291c-.72-2.269-3.139-7.622-3.307-7.32-.316.57-2.895 7.39-2.895 7.657 0 .133 1.437.242 3.193.242 3.164 0 3.191-.005 3.01-.58zm19.198-.083V8.467H160.072V4.498h21.168V8.467H173.302v17.727h-5.292zm21.167-1.984V4.498h5.292v21.696h-5.292zm71.075 5.358a3038.32 3038.32 0 004.414-10.852l2.166-5.361 3.15.07 3.149.07 2.826 6.482c1.555 3.565 3.671 8.417 4.704 10.781l1.877 4.3h-5.724l-.854-2.117-.853-2.117h-9.886l-.77 2.117-.77 2.117h-5.677zm12.914-3.291c-.72-2.269-3.138-7.622-3.307-7.32-.316.57-2.894 7.39-2.894 7.657 0 .133 1.436.242 3.192.242 3.165 0 3.192-.005 3.01-.58zm5.573-10.534l1.195-2.381h2.511c1.381 0 2.511.045 2.511.1 0 .056-1.146 1.128-2.546 2.382-2.38 2.13-2.623 2.28-3.707 2.28h-1.16z" style="fill:#010101;stroke-width:.264583"/><path d="M0 15.346V0h30.692v30.692H0z" style="fill:#31e3fe;stroke-width:.264583"/><path d="M183.307 87.926c.19-.077.419-.067.507.02.088.088-.069.15-.348.14-.308-.013-.37-.076-.16-.16zm4.233 0c.191-.077.42-.067.507.02.088.088-.068.15-.347.14-.308-.013-.371-.076-.16-.16zm-10.303-2.664c-.329-.42-.32-.429.1-.1.255.2.463.408.463.463 0 .218-.217.078-.563-.363zm27.93-.661l-.776-.86.86.777c.472.427.86.814.86.86 0 .204-.219.024-.943-.777zm-15.99-2.15c0-.056.208-.264.463-.464.42-.329.43-.32.1.1-.346.44-.563.58-.563.363zm-148.06-.76l-.503-.596.595.504c.56.473.716.686.504.686-.05 0-.318-.267-.595-.595zm9.815.065c.264-.29.539-.529.611-.529.073 0-.083.238-.346.53-.264.29-.539.528-.611.528-.073 0 .083-.238.346-.529zm41.25-.066l-.504-.595.595.504c.56.473.716.686.504.686-.05 0-.318-.267-.595-.595zm9.815.066c.263-.29.538-.529.611-.529.073 0-.083.238-.347.53-.263.29-.538.528-.61.528-.073 0 .082-.238.346-.529zm49.716-.066l-.504-.595.596.504c.327.277.595.545.595.595 0 .212-.213.056-.687-.504zm9.815.066c.264-.29.539-.529.611-.529.073 0-.083.238-.346.53-.264.29-.539.528-.611.528-.073 0 .083-.238.346-.529zM41.143 72.231c.263-.29.538-.529.61-.529.074 0-.082.238-.346.53-.263.29-.538.528-.61.528-.074 0 .082-.238.346-.529zm9.764-.066l-.504-.595.595.504c.56.474.716.687.504.687-.05 0-.318-.268-.595-.596zm41.3.066c.264-.29.539-.529.611-.529.073 0-.083.238-.346.53-.264.29-.539.528-.611.528-.073 0 .083-.238.346-.529zm9.765-.066l-.504-.595.595.504c.56.474.716.687.504.687-.05 0-.318-.268-.595-.596zm49.767.066c.263-.29.538-.529.61-.529.074 0-.082.238-.346.53-.263.29-.538.528-.611.528-.073 0 .083-.238.347-.529zm9.764-.066l-.504-.595.595.504c.56.474.716.687.504.687-.05 0-.318-.268-.595-.596zm43.55-2.447c.34-.364.68-.662.753-.662.073 0-.148.298-.49.662-.341.364-.68.661-.753.661-.073 0 .147-.297.49-.661zm7.887-3.753c.191-.076.42-.067.507.021.088.088-.068.15-.347.14-.308-.014-.371-.076-.16-.16zM30.692 46.038V30.692H61.383V61.383H30.692zm11.702 6.341l.072-4.77 4.1 4.752 4.102 4.753 3.557.018 3.558.018-.809-.86c-2.107-2.24-8.555-9.776-8.555-9.999 0-.22 6.387-7.669 8.556-9.977l.808-.86-3.558.017-3.557.016-4.101 4.742-4.101 4.742-.072-4.758-.073-4.759h-5.28V57.15h5.28zm136.315 1.53l-.777-.86.86.777c.473.427.86.814.86.86 0 .204-.218.024-.943-.777zm-107.164-2.91l-.504-.596.595.504c.327.277.595.545.595.595 0 .212-.213.056-.686-.504zm9.814.066c.264-.291.539-.53.612-.53.072 0-.084.239-.347.53-.263.29-.538.529-.611.529-.073 0 .083-.238.346-.53zm-9.79-9.525c.264-.291.54-.53.612-.53.073 0-.083.239-.347.53-.263.29-.538.529-.61.529-.074 0 .082-.238.346-.53zm9.765-.067l-.504-.595.596.504c.327.277.595.545.595.595 0 .212-.213.056-.687-.504zm97.26-2.447c.342-.364.68-.661.753-.661.073 0-.147.297-.489.661-.341.364-.68.662-.753.662-.073 0 .147-.298.489-.662zm7.888-3.753c.19-.076.419-.067.507.021.088.088-.069.15-.348.14-.308-.013-.37-.076-.16-.16zM55.793 24.408c-.329-.42-.32-.43.1-.1.441.346.581.563.363.563-.055 0-.263-.209-.463-.463zm196.057 0c-.33-.42-.32-.43.1-.1.44.346.58.563.363.563-.055 0-.264-.209-.463-.463zm-45.624-1.455l-.777-.86.86.777c.473.427.86.814.86.86 0 .204-.219.024-.943-.777zM43.358 18.058c-.33-.42-.32-.43.1-.1.44.346.58.563.363.563-.055 0-.263-.209-.463-.463zm6.88 0c-.33-.42-.32-.43.099-.1.44.346.58.563.363.563-.055 0-.263-.209-.463-.463zm189.176 0c-.329-.42-.32-.43.1-.1.44.346.58.563.363.563-.055 0-.263-.209-.463-.463zm6.88 0c-.33-.42-.32-.43.1-.1.254.2.462.408.462.463 0 .218-.217.078-.563-.363zM43.126 13.394c0-.055.208-.263.463-.463.42-.33.43-.32.1.1-.346.44-.563.58-.563.363zm6.88 0c0-.055.208-.263.462-.463.42-.33.43-.32.1.1-.345.44-.563.58-.563.363zm189.176 0c0-.055.209-.263.463-.463.42-.33.43-.32.1.1-.345.44-.563.58-.563.363zm6.88 0c0-.055.208-.263.463-.463.42-.33.429-.32.1.1-.346.44-.563.58-.563.363zM46.566 9.425c0-.055.208-.263.463-.463.42-.329.429-.32.1.1-.346.44-.563.58-.563.363zm196.056 0c0-.055.208-.263.463-.463.42-.329.429-.32.1.1-.346.44-.563.58-.563.363zM206.11 8.07c.342-.364.681-.662.754-.662.073 0-.147.298-.489.662-.342.364-.68.661-.754.661-.073 0 .148-.297.49-.661zM48.42 7.308c0-.054.208-.263.463-.463.42-.329.429-.32.1.1-.346.441-.563.581-.563.363zm6.879 0c0-.054.208-.263.463-.463.42-.329.429-.32.1.1-.346.441-.563.581-.563.363zm189.177 0c0-.054.208-.263.463-.463.42-.329.429-.32.1.1-.346.441-.563.581-.563.363zm6.88 0c0-.054.208-.263.462-.463.42-.329.43-.32.1.1-.346.441-.563.581-.563.363zm30.955-.264c0-.055.209-.263.463-.463.42-.33.43-.32.1.1-.345.44-.563.58-.563.363zm-68.312-2.727c.191-.076.42-.067.507.021.088.088-.068.15-.347.14-.308-.014-.37-.076-.16-.16z" style="fill:#7bd200;stroke-width:.264583"/><path d="M0 76.73V61.382h30.692v30.692H0z" style="fill:#fe0902;stroke-width:.264583"/><script xmlns="" id="bw-fido2-page-script"/></svg>
+
+    </a>
+    
+
+
+
+<nav
+  id="mainnav"
+  class=" site-nav"
+  aria-label="Main"
+>
+  <ul class="cluster" role="list">
+    
+      <li>
+        <a
+          class="nav"
+          href="/manifest/"
+          
+          >Náš manifest</a
+        >
+      </li>
+    
+      <li>
+        <a
+          class="nav"
+          href="/kontakt/"
+          
+          >Kontakt</a
+        >
+      </li>
+    
+      <li>
+        <a
+          class="nav"
+          href="https://www.facebook.com/klimakoaliceolomouc"
+          
+          >Jsme na FB</a
+        >
+      </li>
+    
+  </ul>
+</nav>
+
+
+
+  </div>
+</header>
+
+
+    <main id="main" class="flow">
+<article
+  class="region wrapper flow prose"
+  style="--region-space-top: var(--space-xl-2xl)"
+>
+  <h1 class="gradient-text">Get started</h1>
+  <p>You can use this starter as a template for your blog and you are ready to go! But there are some <strong>adjustments you have to make</strong>.</p>
+<ul class="list">
+<li><code>src/_data/meta.js</code> - sets different “hard coded” text values all over the template, you can change the language, etc.</li>
+<li>edit your personal details and social media in <code>src/_data/personal.yaml</code>.</li>
+<li>Open <code>src/assets/css/blocks/external-link.css</code>. Replace “eleventy-excellent.netlify.app” with your own domain. This is about the external link indicators, they are matched with your domain. If you don’t want to use external link indicators, feel free to delete the whole style rule. You can also add the class <code>no-indicator</code> to any anchor element you want to except from this rule.</li>
+</ul>
+<p>If you are working with <strong>VS Code</strong> I recommend installing the “Tailwind CSS IntelliSense” addon, as it works also for our custom utility classes. That said, you will find that Tailwind CSS does not work as you might expect. I explain this in <a href="/blog/what-is-tailwind-css-doing-here/">one of the blog posts</a>.</p>
+<p>The <a href="/blog/page-0/">blog posts</a> also explain / show some features that aren’t covered here.</p>
+<h2 id="docs-lol"><a class="heading-anchor" href="#docs-lol">“Docs” lol</a></h2>
+<!-- loop docs -->
+<!-- details -->
+<ul class="control | cluster" aria-label="section controls">
+  <button id="expandAll" class="button post-tag">expand all</button>
+  <button id="collapseAll" class="button post-tag">collapse all</button>
+</ul>
+  <details id="css">
+    <summary>CSS</summary>
+    <p>Add and delete your custom block stylesheets in <code>src/assets/css/blocks/*.css</code>, they get pulled in your output stylesheet automatically.</p>
+<p>The methodology used is <a href="https://cube.fyi/" rel="noopener">CUBE CSS.</a></p>
+<p>The CSS system of this starter was invented by Andy Bell.<br>
+If you want to know exactly how it all works, and have a look at the (further elaborated) original, <a href="https://piccalil.li/blog/a-css-project-boilerplate/" rel="noopener">read this article on piccalil.li</a>.</p>
+  </details>
+  <details id="design-tokens">
+    <summary>Design tokens</summary>
+    <p>Edit all your preferences (colors, fluid text sizes etc.) in <code>src/_data/designTokens/*.json</code>.</p>
+<p>Additional colors, variants and gradients for custom properties are automatically created in <code>src/assets/css/global/variables.css</code> based on the colors set in <code>colors.json</code>. If you change names you should edit <code>variables.css</code> as well and check if the names are used elsewhere in the template.<br>
+Admittedly, I went a little bit crazy there with the new CSS color syntax stuff.</p>
+<p>In the <a href="/styleguide/">style guide</a> you can see how everything turns out.</p>
+  </details>
+  <details id="favicons">
+    <summary>Favicons</summary>
+    <p>The favicons used are based on the recommendations from the <a href="https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs" rel="noopener">How to Favicon article on evilmartians.com.</a></p>
+<p>All favicons are in <code>src/assets/images/favicons</code>, and copied over to the root of the output folder.</p>
+<p>There is no automatization in place to create them.</p>
+<p>I recommend keeping the file names as they are, since they are referenced like that in different places.</p>
+  </details>
+  <details id="fonts">
+    <summary>Fonts</summary>
+    <p>This starter uses three fonts, Red Hat Display, Figtree and Roboto Mono. You can add or delete fonts in <code>src/assets/fonts</code>.</p>
+<p>You can create font subsets for a better performance, for example using the <a href="https://www.fontsquirrel.com/tools/webfont-generator" rel="noopener">Fontsquirrel Webfont Generator</a>.</p>
+<p>Next, edit <code>src/assets/css/global/fonts.css</code>.</p>
+<p>Add your new font aliases in <code>src/_data/designTokens/fonts.json</code>.</p>
+<p>Finally, in <code>src/_layouts/base.njk</code> edit the font preloads. Roboto Mono is only used for code blocks. Its preload is set directly in the post layout: <code>src/_layouts/post.njk</code>.</p>
+  </details>
+  <details id="less-javascript">
+    <summary>Less JavaScript</summary>
+    <p>The only “real” JavaScript dependency is <strong>theme-toggle.js</strong>, which is inlined.</p>
+<p>The <code>gallery.njk</code> and <code>details.njk</code> components were slightly enhanced with JavaScript.</p>
+<p>There are three more scripts, but you have to opt in:</p>
+<p><strong>nav-drawer.js</strong>, to opt in to a drawer menu on small screens (Read more in <strong>Navigation</strong>).</p>
+<p><strong>masonry.js</strong>, creating the masonry effect used on the cards.<br>
+Search for <code>masonry: true</code> to see where it is activated, and set to <code>false</code>, an empty string, or delete the front matter field, if you don’t want to use it. The script won’t be included then. Nothing breaks, the cards just won’t rise up to completely fill the gaps in their grid.</p>
+<p>The <strong>easteregg.js</strong> is an opt-in JS-file set in <code>src/_data/meta.js</code>.<br>
+Right to the end of the file, you can set <code>easteregg: false</code> to deactivate the loading of the script.</p>
+  </details>
+  <details id="masonry">
+    <summary>Masonry</summary>
+    <p>There is the idea of making masonry layout a native part of CSS grid, using <code>grid-template-rows: masonry;</code>. It is <a href="https://caniuse.com/mdn-css_properties_grid-template-rows_masonry" rel="noopener">not yet to be seen on the horizon</a>, but it is already included in the starter (inside the <code>grid.css</code> composition).<br>
+Until then, a small script will help us to get the effect.</p>
+<p>It gets loaded by opt-in.<br>
+Set <code>masonry: true</code> in your front matter to activate.</p>
+  </details>
+  <details id="navigation">
+    <summary>Navigation</summary>
+    <p>Edit your navigation items in <code>src/_data/navigation.js</code>.</p>
+<p>You have two options for mobile navigation: by default, the navigation on small displays is converted to small pills that wrap. This does not require any additional JavaScript.</p>
+<p>Before version 2.0 a slide out drawer was the default, you can activate it again in <code>src/_data/meta.js</code>:</p>
+<pre class="language-js"><code class="language-js"><span class="token literal-property property">navigation</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+   <span class="token comment">// other settings</span>
+    <span class="token literal-property property">drawerNav</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">navLabel</span><span class="token operator">:</span> <span class="token string">'Menu'</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span></code></pre>
+<p><code>drawerNav</code> activates the navigation drawer, <a href="https://web.dev/articles/website-navigation" rel="noopener">built according to Manuel Matuzović’s article on web.dev.</a></p>
+  </details>
+  <details id="open-graph-images">
+    <summary>Open Graph images</summary>
+    <p>You can see a <a href="/blog/open-graph-images/">preview of the OG images in a blog post</a>.</p>
+<p>They are referenced in <code>meta-info.njk</code>:</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span>
+  <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:image<span class="token punctuation">"</span></span>
+  <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ meta.url }}
+  {% if (layout == 'post') %}/assets/og-images/{{ title | slugify }}-preview.jpeg
+  {% else %}{{ meta.opengraph_default }}
+  {% endif %}<span class="token punctuation">"</span></span>
+<span class="token punctuation">/></span></span></code></pre>
+<p>To change the look and behaviour of those images and replace the SVG background edit <code>src/common/og-images.njk</code>.</p>
+<p>The implementation is based on <a href="https://bnijenhuis.nl/notes/automatically-generate-open-graph-images-in-eleventy/" rel="noopener">Bernard Nijenhuis article.</a></p>
+<p>If you want to be inspired, have a look at <a href="https://lea.codes/posts/2023-04-25-pseudorandom-numbers-in-eleventy/" rel="noopener">what Lea is doing here.</a></p>
+<p>Previously, the images were created at build time, but this leads to not rendering the font – if the system executing the build has not installed the font, it will not be used.</p>
+<p>A solution would be to always build the page yourself and then place it on the server directly.<br>
+Or, as <a href="https://github.com/sophiekoonin/localghost/blob/main/eleventy.config.js#L45-L47" rel="noopener">Sophie Koonin does</a>, explicitly specify the system to be used for the build, and select a font that this system has installed by default.</p>
+<p>At the moment I have relocated the creation of the images in the development process, so that the font only needs to be installed on your own system. The images are located in <code>src/assets/og-images</code> and are comitted.</p>
+<p>This is fine as long as you only work with markdown and the font is always installed on your system. How this works if a CMS is involved remains to be seen 😅.</p>
+<p>Consider that the domain is a hard coded value in the front matter in <code>src/common/og-images.njk</code>.</p>
+<p>Let me know if you encounter any problems.</p>
+  </details>
+  <details id="pagination">
+    <summary>Pagination</summary>
+    <p>The blog posts use <a href="https://www.11ty.dev/docs/pagination/" rel="noopener">Eleventy’s pagination feature</a>. The logic for this can be found in the layout <code>src/_layouts/blog.njk</code>, how many entries should be on a page can be defined in <code>src/pages/blog.md</code>.</p>
+<p>If you do not want any pagination at all, it is easiest to set a very high number for the pagination size, for example:</p>
+<pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">pagination</span><span class="token punctuation">:</span>
+  <span class="token key atrule">data</span><span class="token punctuation">:</span> collections.posts
+  <span class="token key atrule">size</span><span class="token punctuation">:</span> <span class="token number">10000</span></code></pre>
+<p>In <code>src/_data_/meta.js</code> you can set some values for the visible content (previous / next buttons) and the aria labels.</p>
+<p>You can also <strong>hide the number fields</strong> between the previous and next buttons by setting <code>paginationNumbers</code> to <code>false</code>.</p>
+<pre class="language-js"><code class="language-js"><span class="token literal-property property">blog</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+	<span class="token comment">// other adjustments</span>
+	<span class="token literal-property property">paginationLabel</span><span class="token operator">:</span> <span class="token string">'Blog'</span><span class="token punctuation">,</span>
+	<span class="token literal-property property">paginationPage</span><span class="token operator">:</span> <span class="token string">'Page'</span><span class="token punctuation">,</span>
+	<span class="token literal-property property">paginationPrevious</span><span class="token operator">:</span> <span class="token string">'Previous'</span><span class="token punctuation">,</span>
+	<span class="token literal-property property">paginationNext</span><span class="token operator">:</span> <span class="token string">'Next'</span><span class="token punctuation">,</span>
+	<span class="token literal-property property">paginationNumbers</span><span class="token operator">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span></code></pre>
+<p>If you want to change the collection that is paginated (by default <code>collections.posts</code>), you must do so in two places: the front matter of the template, <code>src/pages/blog.md</code>:</p>
+<pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">pagination</span><span class="token punctuation">:</span>
+  <span class="token key atrule">data</span><span class="token punctuation">:</span> collections.posts</code></pre>
+<p>and where the pagination component is included: <code>src/_layouts/blog.njk</code>:</p>
+<pre class="language-jinja2"><code class="language-jinja2"><span class="token comment">&lt;!-- set collection to paginate --></span>
+<span class="token jinja2 language-jinja2"><span class="token delimiter punctuation">{%</span> <span class="token tag keyword">set</span> <span class="token variable">collectionToPaginate</span> <span class="token operator">=</span> <span class="token variable">collections</span><span class="token punctuation">.</span><span class="token variable">posts</span> <span class="token delimiter punctuation">%}</span></span>
+<span class="token comment">&lt;!-- if the number of items in the collection is greater than the number of items shown on one page --></span>
+<span class="token jinja2 language-jinja2"><span class="token delimiter punctuation">{%</span> <span class="token tag keyword">if</span> <span class="token variable">collectionToPaginate</span><span class="token punctuation">.</span><span class="token variable">length</span> <span class="token operator">></span> <span class="token variable">pagination</span><span class="token punctuation">.</span><span class="token variable">size</span> <span class="token delimiter punctuation">%}</span></span>
+<span class="token comment">&lt;!-- include pagination --></span>
+<span class="token jinja2 language-jinja2"><span class="token delimiter punctuation">{%</span> <span class="token tag keyword">include</span> <span class="token string">'components/pagination.njk'</span> <span class="token delimiter punctuation">%}</span></span>
+<span class="token jinja2 language-jinja2"><span class="token delimiter punctuation">{%</span> <span class="token tag keyword">endif</span> <span class="token delimiter punctuation">%}</span></span></code></pre>
+  </details>
+  <details id="platforms-icons">
+    <summary>Platforms (icons)</summary>
+    <p>Find available social media / platform icons in <code>src/_includes/svg</code> (prefixed with <code>platform-</code>).<br>
+If you add new icons, prefix their name with “platform-”.</p>
+<p>In <code>personal.yaml</code> you can add new platforms and their URLs. The key should be the same as the name of the icon. For example: <code>mastodon: 'https://front-end.social/@lene'</code> and <code>platform-mastodon.svg</code>.</p>
+<p><a href="https://simpleicons.org/" rel="noopener">https://simpleicons.org/</a> features a great variety of free SVG icons for popular brands.</p>
+  </details>
+  <details id="tags">
+    <summary>Tags</summary>
+    <p>This was probably the most opinionated decision: tags have been integrated since version 2.0.</p>
+<p>In several places you will find a code block that looks like this:</p>
+<pre class="language-jinja2"><code class="language-jinja2"><span class="token comment">&lt;!-- loop posts --></span>
+<span class="token jinja2 language-jinja2"><span class="token delimiter punctuation">{%</span> <span class="token tag keyword">set</span> <span class="token variable">itemList</span> <span class="token operator">=</span> <span class="token variable">collections</span><span class="token punctuation">.</span><span class="token variable">posts</span> <span class="token delimiter punctuation">%}</span></span>
+<span class="token jinja2 language-jinja2"><span class="token delimiter punctuation">{%</span> <span class="token tag keyword">for</span> <span class="token variable">item</span> <span class="token keyword">in</span> <span class="token variable">itemList</span><span class="token punctuation">.</span><span class="token function">slice</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">)</span> <span class="token delimiter punctuation">%}</span></span>
+<span class="token comment">&lt;!-- activate tags --></span>
+<span class="token jinja2 language-jinja2"><span class="token delimiter punctuation">{%</span> <span class="token tag keyword">set</span> <span class="token variable">activateTags</span> <span class="token operator">=</span> <span class="token boolean">true</span> <span class="token delimiter punctuation">%}</span></span>
+<span class="token comment">&lt;!-- set heading context --></span>
+<span class="token jinja2 language-jinja2"><span class="token delimiter punctuation">{%</span> <span class="token tag keyword">set</span> <span class="token variable">headingContext</span> <span class="token operator">=</span> <span class="token string">"h3"</span> <span class="token delimiter punctuation">%}</span></span>
+<span class="token comment">&lt;!-- card --></span>
+<span class="token jinja2 language-jinja2"><span class="token delimiter punctuation">{%</span> <span class="token tag keyword">include</span> <span class="token string">'components/card.njk'</span> <span class="token delimiter punctuation">%}</span></span>
+<span class="token jinja2 language-jinja2"><span class="token delimiter punctuation">{%</span> <span class="token tag keyword">endfor</span> <span class="token delimiter punctuation">%}</span></span></code></pre>
+<p><code>card.njk</code> is imported as a component, and some settings are made.<br>
+With <code>set activateTags = true</code> you can switch the display of tags in this card collection instance.</p>
+<p>The tags are placed in the front matter of the posts, using the syntax</p>
+<pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">tags</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> image
+  <span class="token punctuation">-</span> feature</code></pre>
+<p>or</p>
+<pre class="language-md"><code class="language-md">tags: ['markdown', 'feature']</code></pre>
+<p>If you generally do not want any tags to show, it is probably easiest to not create any at all.</p>
+  </details>
+  <details id="theme-dark-/-light-mode">
+    <summary>Theme (dark / light mode)</summary>
+    <p>With version 2.0 I introduced dark and light mode. This is not intended to be a gimmick, but to support the accessibility of the site. And I tend to read blog posts at night, and if there is no dark mode then I leave the tab for later, and we all know how that ends.</p>
+<p>Dark and light mode respects the user agent or operating system settings using the <code>prefers-color-scheme</code> CSS media feature. But there is also a switch in the <code>&lt;footer&gt;</code>.</p>
+<p>If you want to change something here, for example replace the button with a sun/moon icon, make sure to preserve accessibility.</p>
+<p>The accessible name (“Theme dark” or “Theme light”) is put together by <code>aria-labelledby=&quot;theme-switcher-label&quot;</code> resolving to “Theme” and the <code>&lt;button&gt;</code>s “light” and “dark”.</p>
+<p>If your site is in another language, you can adjust those values in <code>_data/meta.js</code>, for both the content of the <code>&lt;button&gt;</code>s and their <code>aria-label</code>.</p>
+<p>If you remove the “light” and “dark” <code>&lt;button&gt;</code> and you don’t use the heading with the ID <code>theme-switcher-label</code>, the value for the accessible name must be obtained differently.</p>
+<p>If you find any accessibility issues, please let me know.</p>
+  </details>
+  <details id="what-can-be-deleted">
+    <summary>What can be deleted</summary>
+    <p><strong>Everything, of course</strong><br>
+This is still meant to be a starter, even though it grew to be more like a template.<br>
+If you want to keep the defaults, but get rid of the example content, delete the following files and archives:</p>
+<ul class="list">
+<li><code>github.js</code> in <code>src/_data/</code></li>
+<li><code>builtwith.json</code> in <code>src/_data/</code></li>
+<li>all files in <code>src/posts</code></li>
+<li>the directory and all files in <code>src/docs</code></li>
+<li>all pages in <code>src/pages</code>, though you might want to keep <code>index.njk</code> as a starting point</li>
+<li>You can delete <code>screenshots</code>, <code>blog</code> and <code>gallery</code> in <code>src/assets/images</code>.<br>
+Keep the <code>favicon</code> and <code>template</code> folders though.</li>
+</ul>
+<p>If you don’t want to feature any code examples, you may delete the whole stylesheet for syntax highlighting: <code>src/assets/css/blocks/code.css</code>.<br>
+In general, any CSS block in there is optional.</p>
+  </details>
+<script>
+  const expandAllButton = document.querySelector('#expandAll');
+  const collapseAllButton = document.querySelector('#collapseAll');
+  const details = document.querySelectorAll('details');
+
+  expandAllButton.addEventListener('click', () => {
+    details.forEach(detail => (detail.open = true));
+  });
+
+  collapseAllButton.addEventListener('click', () => {
+    details.forEach(detail => (detail.open = false));
+  });
+
+  details.forEach(detail => {
+    detail.addEventListener('toggle', () => {
+      const hash = detail.open ? `#${detail.id}` : '#';
+      history.pushState(null, null, hash);
+    });
+  });
+
+  const id = window.location.hash.slice(1);
+  const detail = document.getElementById(id);
+  if (detail) detail.open = true;
+</script>
+
+</article>
+</main>
+
+    <footer class="site-foot">
+  <div class="wrapper">
+    <div class="site-foot__inner">
+      <nav
+        class="site-foot__inner text-step-0"
+        aria-label="Complementary"
+      >
+        &copy; 2024
+        <a href="/" 
+          >Klimatická koalice Olomouc <small>2.2.2</small>
+        </a>
+
+        
+      </nav>
+
+      <nav class="site-foot__inner" aria-label="Platforms">
+        <!-- gets the first item from the feed loop set in meta -->
+        <a
+          href="/feed.xml"
+          rel="alternate"
+          type="application/atom+xml"
+        >
+          <span class="visually-hidden">Atom Feed</span>
+          <div aria-hidden="true"><svg
+  role="img"
+  viewBox="0 0 24 24"
+  width="1em"
+  height="1em"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <title>RSS</title>
+  <path d="M4 11a9 9 0 0 1 9 9"></path>
+  <path d="M4 4a16 16 0 0 1 16 16"></path>
+  <circle cx="5" cy="19" r="1"></circle>
+</svg>
+</div>
+        </a>
+
+
+
+
+
+
+
+
+
+
+      </nav>
+    </div>
+
+    <!-- theme switch -->
+
+
+
+
+
+
+
+
+  </div>
+</footer>
+
+  </body>
+</html>

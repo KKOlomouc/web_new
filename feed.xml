@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="http://localhost:8080/">
+  <title>Co je nového</title>
+  <subtitle>Tell the word what you are writing about in your blog. It will show up on feed readers.</subtitle>
+  <link href="http://localhost:8080/feed.xml" rel="self" />
+  <link href="http://localhost:8080/" />
+  
+  <updated>2024-04-15T17:11:01Z</updated>
+  <id>http://localhost:8080/</id>
+  <author>
+    <name>Lene Saile</name>
+    <email>hola@lenesaile.com</email>
+  </author>
+  <entry>
+    <title>Benefice pro Klimatickou žalobu je za námi</title>
+    <link href="http://localhost:8080/blog/benefice-pro-klimatickou-zalobu-je-za-nami/" />
+    <updated>2024-04-15T17:11:01Z</updated>
+    <id>http://localhost:8080/blog/benefice-pro-klimatickou-zalobu-je-za-nami/</id>
+    <content
+      xml:lang="cs_CZ"
+      type="html"
+      >&lt;p&gt;Benefice pro Klimatickou žalobu je za námi. Zatímco na náměstí bylo (opět) velmi teplo, v suterénních prostorách Divadlo na cucky čekal na malé i velké nejen příjemný chládek, ale i pestrý program.&lt;/p&gt;
+&lt;p&gt;Představením spolku Klimatická žaloba a současného stavu jeho sporů s českými ministerstvy ho zahájil jeho radní Vincenc Bouček, po něm pak následovalo Mikro-teatro s představením Madremonte pro malé i velké diváctvo. Po krátké pauze jsme se všichni sešli u promítání filmové série Klimatická spravedlnost z produkce A2 kulturní čtrnáctideník a Remízek, po kterém následovala diskuse a jejími producentkami Barborou Aradskou a Martou Martinovou. Celý večer pak zakončil koncert Lukáše Marečka plný nejen funky a jazzu.&lt;/p&gt;
+&lt;p&gt;Ještě jednou děkujeme všem, kteří akci tvořili spolu s námi a podpořili tak úsilí o klima, v němž se dá žít 💚&lt;/p&gt;
+&lt;p&gt;Pokud jste nemohli přijít a chcete žalobu podpořit, můžete tak snadno učinit na stránce &lt;a href=&quot;https://www.darujme.cz/klimaticka-zaloba-ustavni-soud&quot; rel=&quot;noopener&quot;&gt;https://www.darujme.cz/klimaticka-zaloba-ustavni-soud&lt;/a&gt; a pokud vám dává smysl to co děláme, přijďte se s námi potkat - nejbližší schůzka proběhne už v úterý 23.4. od 18:00 v čajovně Kratochvíle.&lt;/p&gt;
+&lt;h2 id=&quot;a-jak-to-tam-vypadalo&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;http://localhost:8080/blog/benefice-pro-klimatickou-zalobu-je-za-nami/#a-jak-to-tam-vypadalo&quot;&gt;A jak to tam vypadalo?&lt;/a&gt;&lt;/h2&gt;
+&lt;figure class=&quot;flow&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;http://localhost:8080/assets/images/DSC_0653-440w.avif 440w, http://localhost:8080/assets/images/DSC_0653-880w.avif 880w, http://localhost:8080/assets/images/DSC_0653-1024w.avif 1024w, http://localhost:8080/assets/images/DSC_0653-1360w.avif 1360w&quot; sizes=&quot;90vw&quot; /&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;http://localhost:8080/assets/images/DSC_0653-440w.webp 440w, http://localhost:8080/assets/images/DSC_0653-880w.webp 880w, http://localhost:8080/assets/images/DSC_0653-1024w.webp 1024w, http://localhost:8080/assets/images/DSC_0653-1360w.webp 1360w&quot; sizes=&quot;90vw&quot; /&gt;&lt;source type=&quot;image/jpeg&quot; srcset=&quot;http://localhost:8080/assets/images/DSC_0653-440w.jpeg 440w, http://localhost:8080/assets/images/DSC_0653-880w.jpeg 880w, http://localhost:8080/assets/images/DSC_0653-1024w.jpeg 1024w, http://localhost:8080/assets/images/DSC_0653-1360w.jpeg 1360w&quot; sizes=&quot;90vw&quot; /&gt;&lt;img src=&quot;http://localhost:8080/assets/images/DSC_0653-1360w.jpeg&quot; width=&quot;1360&quot; height=&quot;907&quot; alt=&quot;Vincenc Bouček ze spolku Klimatická žaloba&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; /&gt;&lt;/picture&gt;&lt;figcaption&gt;Vincenc Bouček ze spolku Klimatická žaloba&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure class=&quot;flow&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;http://localhost:8080/assets/images/DSC_0701-440w.avif 440w, http://localhost:8080/assets/images/DSC_0701-880w.avif 880w, http://localhost:8080/assets/images/DSC_0701-1024w.avif 1024w, http://localhost:8080/assets/images/DSC_0701-1360w.avif 1360w&quot; sizes=&quot;90vw&quot; /&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;http://localhost:8080/assets/images/DSC_0701-440w.webp 440w, http://localhost:8080/assets/images/DSC_0701-880w.webp 880w, http://localhost:8080/assets/images/DSC_0701-1024w.webp 1024w, http://localhost:8080/assets/images/DSC_0701-1360w.webp 1360w&quot; sizes=&quot;90vw&quot; /&gt;&lt;source type=&quot;image/jpeg&quot; srcset=&quot;http://localhost:8080/assets/images/DSC_0701-440w.jpeg 440w, http://localhost:8080/assets/images/DSC_0701-880w.jpeg 880w, http://localhost:8080/assets/images/DSC_0701-1024w.jpeg 1024w, http://localhost:8080/assets/images/DSC_0701-1360w.jpeg 1360w&quot; sizes=&quot;90vw&quot; /&gt;&lt;img src=&quot;http://localhost:8080/assets/images/DSC_0701-1360w.jpeg&quot; width=&quot;1360&quot; height=&quot;907&quot; alt=&quot;Představení divadla Mikro-teatro&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; /&gt;&lt;/picture&gt;&lt;figcaption&gt;Představení divadla Mikro-teatro&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure class=&quot;flow&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;http://localhost:8080/assets/images/DSC_0747-440w.avif 440w, http://localhost:8080/assets/images/DSC_0747-880w.avif 880w, http://localhost:8080/assets/images/DSC_0747-1024w.avif 1024w, http://localhost:8080/assets/images/DSC_0747-1360w.avif 1360w&quot; sizes=&quot;90vw&quot; /&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;http://localhost:8080/assets/images/DSC_0747-440w.webp 440w, http://localhost:8080/assets/images/DSC_0747-880w.webp 880w, http://localhost:8080/assets/images/DSC_0747-1024w.webp 1024w, http://localhost:8080/assets/images/DSC_0747-1360w.webp 1360w&quot; sizes=&quot;90vw&quot; /&gt;&lt;source type=&quot;image/jpeg&quot; srcset=&quot;http://localhost:8080/assets/images/DSC_0747-440w.jpeg 440w, http://localhost:8080/assets/images/DSC_0747-880w.jpeg 880w, http://localhost:8080/assets/images/DSC_0747-1024w.jpeg 1024w, http://localhost:8080/assets/images/DSC_0747-1360w.jpeg 1360w&quot; sizes=&quot;90vw&quot; /&gt;&lt;img src=&quot;http://localhost:8080/assets/images/DSC_0747-1360w.jpeg&quot; width=&quot;1360&quot; height=&quot;907&quot; alt=&quot;Barbora Aradská s Martou Martinovou z A2&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; /&gt;&lt;/picture&gt;&lt;figcaption&gt;Barbora Aradská s Martou Martinovou pro promítání série Klimatická spravedlnost&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure class=&quot;flow&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;http://localhost:8080/assets/images/DSC_0801-440w.avif 440w, http://localhost:8080/assets/images/DSC_0801-880w.avif 880w, http://localhost:8080/assets/images/DSC_0801-1024w.avif 1024w, http://localhost:8080/assets/images/DSC_0801-1360w.avif 1360w&quot; sizes=&quot;90vw&quot; /&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;http://localhost:8080/assets/images/DSC_0801-440w.webp 440w, http://localhost:8080/assets/images/DSC_0801-880w.webp 880w, http://localhost:8080/assets/images/DSC_0801-1024w.webp 1024w, http://localhost:8080/assets/images/DSC_0801-1360w.webp 1360w&quot; sizes=&quot;90vw&quot; /&gt;&lt;source type=&quot;image/jpeg&quot; srcset=&quot;http://localhost:8080/assets/images/DSC_0801-440w.jpeg 440w, http://localhost:8080/assets/images/DSC_0801-880w.jpeg 880w, http://localhost:8080/assets/images/DSC_0801-1024w.jpeg 1024w, http://localhost:8080/assets/images/DSC_0801-1360w.jpeg 1360w&quot; sizes=&quot;90vw&quot; /&gt;&lt;img src=&quot;http://localhost:8080/assets/images/DSC_0801-1360w.jpeg&quot; width=&quot;1360&quot; height=&quot;907&quot; alt=&quot;Koncert Lukáše Marečka&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; /&gt;&lt;/picture&gt;&lt;figcaption&gt;Koncert Lukáše Marečka&lt;/figcaption&gt;&lt;/figure&gt;</content
+    >
+  </entry>
+  <entry>
+    <title>Růst či nerůst? Přednáška a diskuse s Tadeášem Žďárským 28.5.</title>
+    <link href="http://localhost:8080/blog/rust-ci-nerust-prednaska-a-diskuse-s-tadeasem-zdarskym-285/" />
+    <updated>2024-04-13T07:27:13Z</updated>
+    <id>http://localhost:8080/blog/rust-ci-nerust-prednaska-a-diskuse-s-tadeasem-zdarskym-285/</id>
+    <content
+      xml:lang="cs_CZ"
+      type="html"
+      >&lt;p&gt;Zveme Vás na přednášku a diskusi 28.5. v 18:00 v Uměleckém centru UPOL (konvikt). Nerůstový odborník &lt;a href=&quot;https://nerust.cz/o-nas/&quot; rel=&quot;noopener&quot;&gt;Tadeáš Žďárský&lt;/a&gt; nám představí možné cesty z pasti trvalé honby za ziskem, která nebere ohledy na ekologickou ani klimatickou cenu.&lt;/p&gt;
+&lt;h2 id=&quot;rust-ci-nerust&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;http://localhost:8080/blog/rust-ci-nerust-prednaska-a-diskuse-s-tadeasem-zdarskym-285/#rust-ci-nerust&quot;&gt;RŮST ČI NERŮST?&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Žijeme v době krizí - nepřístupné bydlení, energetická chudoba, narustající nerovnosti, častější deprese či vyhoření, klimatická krize. I když se mohou zdát oddělené, jejich společným jmenovatelem je ekonomický systém, který upřednostňuje růst a zisk na úkor naplnění potřeb většiny lidí a přírody. Zatím co mezinárodní instituce jako Evropská unie nebo OSN propagují řešení tzv. zeleného růstu, hnutí nerůstu vidí v ekonomickém růstu jádro samotného problému. Lze skutečně dosáhnout zeleného růstu a je vůbec žádoucí? Jak by vypadala nerůstová ekonomika, která by uspokojovala potřeby všech uvnitř planetárních limitů? Co je větší utopie - proměnit ekonomický systém, nebo zůstat v tom současném?&lt;/p&gt;
+&lt;h2 id=&quot;tadeas-zdarsky&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;http://localhost:8080/blog/rust-ci-nerust-prednaska-a-diskuse-s-tadeasem-zdarskym-285/#tadeas-zdarsky&quot;&gt;TADEÁŠ ŽĎÁRSKÝ&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Studoval environmentální studia na Masarykově univerzitě v Brně a absolvoval studijní pobyty ve Výzkumném centru pro rozvoj a udržitelnost v norském Oslu a na Hampshire College v USA. V současné době je jedním z hlavních nerůstových propagátorů a odborníků. Působí v brněnské organizaci NaZemi, inicioval vznik České nerůstové pracovní skupiny, vede Nerůstovou akademii a o nerůstu přednáší, píše a připravuje vzdělávací materiály.&lt;/p&gt;
+&lt;ul class=&quot;list&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;https://nerust.cz/&quot; rel=&quot;noopener&quot;&gt;https://nerust.cz/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://nazemi.cz/&quot; rel=&quot;noopener&quot;&gt;https://nazemi.cz/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;facebook&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;http://localhost:8080/blog/rust-ci-nerust-prednaska-a-diskuse-s-tadeasem-zdarskym-285/#facebook&quot;&gt;FACEBOOK&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Jste na Facebooku? Dejte nám vědět, že dorazíte a pozvěte další na &lt;a href=&quot;https://www.facebook.com/events/1374238939903512?ref=newsfeed&quot; rel=&quot;noopener&quot;&gt;https://www.facebook.com/events/1374238939903512?ref=newsfeed&lt;/a&gt;. Děkujeme a těšíme se na Vás.&lt;/p&gt;
+</content
+    >
+  </entry>
+  <entry>
+    <title>Právní dílna (nejen) pro klimatické aktivitst(k)y</title>
+    <link href="http://localhost:8080/blog/pravni-dilna-nejen-pro-klimaticke-aktivitstky/" />
+    <updated>2024-03-27T19:37:59Z</updated>
+    <id>http://localhost:8080/blog/pravni-dilna-nejen-pro-klimaticke-aktivitstky/</id>
+    <content
+      xml:lang="cs_CZ"
+      type="html"
+      >&lt;p&gt;V úterý 16.4. Vás do olomouckého Konviktu zveme na prakticky zaměřený právní seminář pod vedením ostříleného právníka Vincence Boučka.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Vincenc Bouček&lt;/strong&gt; – advokát, od roku 2017 se aktivně věnuje právní podpoře klimatického hnutí, nejprve v právní skupině &lt;a href=&quot;https://limityjsmemy.cz/&quot; rel=&quot;noopener&quot;&gt;Limity jsme my&lt;/a&gt;, nyní zejména v &lt;a href=&quot;http://klimazaloba.cz/&quot; rel=&quot;noopener&quot;&gt;Klimatické žalobě&lt;/a&gt;. Zkušenosti sbíral i při politických stážích v Německu a ve &lt;a href=&quot;https://frankbold.org/&quot; rel=&quot;noopener&quot;&gt;Frank Bold Advokáti&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;co-vam-pravni-dilna-prinese&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;http://localhost:8080/blog/pravni-dilna-nejen-pro-klimaticke-aktivitstky/#co-vam-pravni-dilna-prinese&quot;&gt;Co Vám &lt;a href=&quot;https://klimaradi.klimazaloba.cz/&quot; rel=&quot;noopener&quot;&gt;Právní dílna&lt;/a&gt; přinese?&lt;/a&gt;&lt;/h2&gt;
+&lt;ul class=&quot;list&quot;&gt;
+&lt;li&gt;ukážeme si, jak uspořádat petice, žádat o informace a lokálně se angažovat, k čemu jsou spolky, žaloby, trestní oznámení a podněty úřadům, jak pořádat demonstrace a jak jednat s policií&lt;/li&gt;
+&lt;li&gt;prostor bude vždy i pro sdílení Vašich zkušeností a kladení otázek&lt;/li&gt;
+&lt;li&gt;povíme si také základ o klimatických závazcích&lt;/li&gt;
+&lt;li&gt;jako bonus dostanou účastníci a účastnice zbrusu novou právní příručku&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;mam-zajem-jak-se-muzu-prihlasit&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;http://localhost:8080/blog/pravni-dilna-nejen-pro-klimaticke-aktivitstky/#mam-zajem-jak-se-muzu-prihlasit&quot;&gt;Mám zájem, jak se můžu přihlásit?&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;V případě zájmu se prosím přihlaste pomocí registračního formuláře na linku níže:&lt;br /&gt;
+&lt;a href=&quot;https://forms.gle/5NPgVuPBu8mhNkow7&quot; rel=&quot;noopener&quot;&gt;https://forms.gle/5NPgVuPBu8mhNkow7&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Těšíme se na Vás!&lt;/p&gt;
+</content
+    >
+  </entry>
+  <entry>
+    <title>Benefice pro Klimatickou žalobu v neděli 14.4.</title>
+    <link href="http://localhost:8080/blog/benefice-pro-klimatickou-zalobu-v-nedeli-144/" />
+    <updated>2024-03-26T00:00:00Z</updated>
+    <id>http://localhost:8080/blog/benefice-pro-klimatickou-zalobu-v-nedeli-144/</id>
+    <content
+      xml:lang="cs_CZ"
+      type="html"
+      >&lt;p&gt;V neděli 14.4. pořádáme v Olomouckém Divadle na Cucky benefiční minifestival na podporu Klimatické žaloby (&lt;a href=&quot;https://www.klimazaloba.cz/&quot; rel=&quot;noopener&quot;&gt;https://www.klimazaloba.cz&lt;/a&gt;) - spolku, který se snaží právní cestou domoci implementace adaptačních a mitigačních opatření na ochranu klimatu, k nimž se ČR zavázala přistoupením k Pařížské dohodě o klimatu. Ten v současnosti dává dohromady finance potřebné na podání žaloby k Ústavnímu soudu, vzhldem k vyčerpání jiných právních možností.&lt;/p&gt;
+&lt;h2 id=&quot;na-co-se-muzete-tesit&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;http://localhost:8080/blog/benefice-pro-klimatickou-zalobu-v-nedeli-144/#na-co-se-muzete-tesit&quot;&gt;Na co se můžete těšit?&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;1600-1630-vincenc-boucek-klimaticka-zaloba&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;http://localhost:8080/blog/benefice-pro-klimatickou-zalobu-v-nedeli-144/#1600-1630-vincenc-boucek-klimaticka-zaloba&quot;&gt;16:00 - 16:30 Vincenc Bouček (Klimatická žaloba)&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Ve spolupráci s advokátní kanceláří Frank Bold Advokáti a dalšími žalobci přímo zasaženými změnou klimatu jsme připravili a podali žalobu na zodpovědná ministerstva. Dle naší žaloby a odborných posudků, které jsme si nechali vypracovat, ministerstva nepřijímají dostatečná opatření k mitigaci (omezování emisí) a adaptaci (přizpůsobení) na změnu klimatu, čímž narušují naše lidská práva a mezinárodní dohody. Cílem žaloby je přinutit zodpovědná ministerstva k přijetí ambicióznějších a efektivnějších opatření vůči změně klimatu. Žaloba je nyní v soudním procesu.”&lt;br /&gt;
+– &lt;cite&gt;Vincenc Bouček, &lt;a href=&quot;https://www.klimazaloba.cz/&quot; rel=&quot;noopener&quot;&gt;https://www.klimazaloba.cz/&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;1630-1730-madremonte-mikro-teatro;-divadlo-pro-deti-rodice-i-dospele&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;http://localhost:8080/blog/benefice-pro-klimatickou-zalobu-v-nedeli-144/#1630-1730-madremonte-mikro-teatro;-divadlo-pro-deti-rodice-i-dospele&quot;&gt;16:30 - 17:30 Madremonte (Mikro-teatro; divadlo pro děti, rodiče i dospělé)&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Divadlo pro děti a jejich rodiče s ekologickou tematikou.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“V zemi, která se jmenuje Kolumbie, je tajemné místo, kde se hory dotýkají nebes. Tam se rodí všechny vody, ze kterých pochází veškerý život, a vyprávějí o všemocné Madremonte. O pečující, milující, starostlivé, přísné, ale spravedlivé matce nás všech – matce přírodě. Vše co pro nás dělá, není samozřejmostí. Ví to i Alfonso? Alfonso potřebuje pro svůj život stále víc. Jak si s tím poradí moudrá Madremonte?”&lt;br /&gt;
+– &lt;cite&gt;Mikro-teatro, &lt;a href=&quot;https://www.mikro-teatro.cz/madremonte-7/&quot; rel=&quot;noopener&quot;&gt;https://www.mikro-teatro.cz/madremonte-7/&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;1800-1930-klimaticka-spravedlnost-remizek-a2;-4-videoreportaze-debata-s-tvurci&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;http://localhost:8080/blog/benefice-pro-klimatickou-zalobu-v-nedeli-144/#1800-1930-klimaticka-spravedlnost-remizek-a2;-4-videoreportaze-debata-s-tvurci&quot;&gt;18:00 - 19:30 Klimatická spravedlnost (Remízek, A2; 4 videoreportáže + debata s tvůrci)&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Čeká Česko klimatická spravedlnost? Ve spolupráci kulturního čtrnáctideníku A2 a TPS Remízek vznikla v produkci Barbory Aradské a Marty Martinové čtyřdílná série videoreportáží s lakonickým názvem Klimatická spravedlnost, jež tematicky pokrývá čtyři oblasti, které potřebujeme v brzké budoucnosti vyřešit tak, aby nikdo neztratil právo na zdravé životní prostředí a dobrý život. Zabývá se zacházením s vodou, využíváním energie, městským prostorem a tím nejdůležitějším – mezigeneračním dialogem, který je nezbytnou podmínkou zažehnání každé krize. Série volně doplňuje stejnojmenné tematické číslo Ádvojky, které vyšlo na podzim roku 2023. Po promítání následuje krátká debata s tvůrci a tvůrkyněmi. Sérii i tematické číslo podpořila Nadace Rosy Luxemburgové.”&lt;br /&gt;
+– &lt;cite&gt;Kulturní čtrnáctideník A2 (&lt;a href=&quot;http://advojka.cz/&quot; rel=&quot;noopener&quot;&gt;http://advojka.cz&lt;/a&gt;) a Remízek (&lt;a href=&quot;https://remizek.org/&quot; rel=&quot;noopener&quot;&gt;https://remizek.org&lt;/a&gt;)&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;2000-2100-lukas-marecek-koncert&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;http://localhost:8080/blog/benefice-pro-klimatickou-zalobu-v-nedeli-144/#2000-2100-lukas-marecek-koncert&quot;&gt;20:00 - 21:00 Lukáš Mareček (koncert)&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Hudební vystoupení olomouckého muzikanta. Má svůj &lt;a href=&quot;https://soundcloud.com/lukas-marecek&quot; rel=&quot;noopener&quot;&gt;Soundcloud&lt;/a&gt; a napsal o něm &lt;a href=&quot;https://olomoucky.denik.cz/volny-cas/vsetranny-hudebnik-marecek-nejradeji-mam-funky-a-j.html&quot; rel=&quot;noopener&quot;&gt;Olomoucký deník&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;2100-2200-networking&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;http://localhost:8080/blog/benefice-pro-klimatickou-zalobu-v-nedeli-144/#2100-2200-networking&quot;&gt;21:00 - 22:00 networking&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id=&quot;zapojte-se&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;http://localhost:8080/blog/benefice-pro-klimatickou-zalobu-v-nedeli-144/#zapojte-se&quot;&gt;Zapojte se&lt;/a&gt;&lt;/h2&gt;
+&lt;ul class=&quot;list&quot;&gt;
+&lt;li&gt;řekněte o akci svým přátelům, přítelkyním, rodině, každému, kdo by mohl mít zájem o hezkou neděli a podporu zachování prostředí, ve kterém lze žít&lt;/li&gt;
+&lt;li&gt;přidejte se na FB události (&lt;a href=&quot;https://www.facebook.com/events/1090296958755968/&quot; rel=&quot;noopener&quot;&gt;https://www.facebook.com/events/1090296958755968/&lt;/a&gt;) a nasdílejte ji&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Děkujeme a těšíme se na Vás!&lt;/p&gt;
+</content
+    >
+  </entry>
+</feed>
