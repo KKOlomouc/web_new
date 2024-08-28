@@ -2,6 +2,7 @@
 title: Zažít Lazce jinak - sousedská slavnost v neděli 22.9.
 description: Sousedská slavnost pro udržitelnější sídliště - zveme všechny sousedy do našeho „centrálního“ parčíku u ZŠ Demlova v sobotu 21. 9. 2024 od 14.00 do 18.00 na přátelské setkání a zajímavý program.
 date: 2024-08-28T22:00:00.000Z
+draft: false
 ---
 
 {% eleventyImage "./src/assets/images/blog/zlj_header.webp", "Zažít Lazce jinak", "" %}
