@@ -5,12 +5,40 @@
   <link href="http://localhost:8080/feed.xml" rel="self" />
   <link href="http://localhost:8080/" />
   
-  <updated>2024-04-15T17:11:01Z</updated>
+  <updated>2024-08-28T22:00:00Z</updated>
   <id>http://localhost:8080/</id>
   <author>
     <name>Lene Saile</name>
     <email>hola@lenesaile.com</email>
   </author>
+  <entry>
+    <title>Zažít Lazce jinak - sousedská slavnost v neděli 22.9.</title>
+    <link href="http://localhost:8080/blog/zazit-lazce-jinak-sousedska-slavnost-v-nedeli-229/" />
+    <updated>2024-08-28T22:00:00Z</updated>
+    <id>http://localhost:8080/blog/zazit-lazce-jinak-sousedska-slavnost-v-nedeli-229/</id>
+    <content
+      xml:lang="cs_CZ"
+      type="html"
+      >&lt;p&gt;&lt;picture class=&quot;flow&quot;&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;http://localhost:8080/assets/images/zlj_header-440w.avif 440w, http://localhost:8080/assets/images/zlj_header-880w.avif 880w, http://localhost:8080/assets/images/zlj_header-1024w.avif 1024w, http://localhost:8080/assets/images/zlj_header-1360w.avif 1360w&quot; sizes=&quot;90vw&quot; /&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;http://localhost:8080/assets/images/zlj_header-440w.webp 440w, http://localhost:8080/assets/images/zlj_header-880w.webp 880w, http://localhost:8080/assets/images/zlj_header-1024w.webp 1024w, http://localhost:8080/assets/images/zlj_header-1360w.webp 1360w&quot; sizes=&quot;90vw&quot; /&gt;&lt;source type=&quot;image/jpeg&quot; srcset=&quot;http://localhost:8080/assets/images/zlj_header-440w.jpeg 440w, http://localhost:8080/assets/images/zlj_header-880w.jpeg 880w, http://localhost:8080/assets/images/zlj_header-1024w.jpeg 1024w, http://localhost:8080/assets/images/zlj_header-1360w.jpeg 1360w&quot; sizes=&quot;90vw&quot; /&gt;&lt;img src=&quot;http://localhost:8080/assets/images/zlj_header-1360w.jpeg&quot; width=&quot;1360&quot; height=&quot;713&quot; alt=&quot;Zažít Lazce jinak&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; /&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Sousedská slavnost pro udržitelnější sídliště - zveme všechny sousedy do našeho „centrálního“ parčíku u ZŠ Demlova v sobotu 21. 9. 2024 od 14.00 do 18.00 na přátelské setkání a zajímavý program.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Klima se rychle mění a za našich životů už nikdy nebude jako dřív. Mnohé odbornice a odborníci upozorňují, že náš dosavadní způsob života se musí rychle změnit, máme-li mít šanci změnám aspoň trochu úspěšně čelit. A jednou z nejdůležitějších změn je naučit se žít zase spolu jako sousedstvo a bránit se tak tlaku byznysu, který má rád jednotlivé spotřebitele.&lt;/p&gt;
+&lt;p&gt;Pojďme se proto potkat u nás na Lazcích, zažít hezké odpoledne a pobavit se o tom, co nás čeká a jak můžeme přispět k tomu, aby se nám tu dobře žilo i v budoucnosti.&lt;/p&gt;
+&lt;h2 id=&quot;muzeme&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;http://localhost:8080/blog/zazit-lazce-jinak-sousedska-slavnost-v-nedeli-229/#muzeme&quot;&gt;Můžeme:&lt;/a&gt;&lt;/h2&gt;
+&lt;ul class=&quot;list&quot;&gt;
+&lt;li&gt;Ochutnat veganský guláš a další dobroty, které si pro sebe přineseme&lt;/li&gt;
+&lt;li&gt;Zahrát si petanque, bedminton a další hry co nám leží doma anebo „chlopňovku“ – interaktivní venkovní hru pro děti&lt;br /&gt;
+i dospělé (kdo překoná nástrahy zlého čaroděje?)&lt;/li&gt;
+&lt;li&gt;Podívat se na zajímavé postery, jak se dá město adaptovat na klimatickou krizi&lt;/li&gt;
+&lt;li&gt;Pobesedovat o možnostech komunitní energetiky&lt;br /&gt;
+– začátek 16.30&lt;/li&gt;
+&lt;li&gt;Vyměnit věci, které už nepotřebujeme – swap oblečení, knih a pokojových květin&lt;/li&gt;
+&lt;li&gt;Poznat své sousedy, být spolu, nejen vedle sebe.&lt;/li&gt;
+&lt;/ul&gt;
+</content
+    >
+  </entry>
   <entry>
     <title>Benefice pro Klimatickou žalobu je za námi</title>
     <link href="http://localhost:8080/blog/benefice-pro-klimatickou-zalobu-je-za-nami/" />
