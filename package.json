@@ -11,7 +11,6 @@
     "clean": "rimraf dist",
     "dev:11ty": "eleventy --serve --watch",
     "dev:11tina": "npx tinacms dev -c \"eleventy --serve --watch\"",
-    "dev:init-backend": "npx @tinacms/cli init backend",
     "build:11ty": "eleventy",
     "start": "run-p dev:*",
     "build": "run-s clean build:*"
