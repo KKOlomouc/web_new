@@ -10,7 +10,6 @@
   "scripts": {
     "clean": "rimraf dist",
     "dev:11ty": "eleventy --serve --watch",
-    "dev:11tina": "npx tinacms dev -c \"eleventy --serve --watch\"",
     "build:11ty": "eleventy",
     "start": "run-p dev:*",
     "build": "run-s clean build:*"
@@ -28,12 +27,10 @@
     "@11ty/eleventy-plugin-inclusive-language": "^1.0.3",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-    "tailwindcss": "^3.0.23",
-    "tinacms": "^1.6.3"
+    "tailwindcss": "^3.0.23"
   },
   "devDependencies": {
     "@csstools/postcss-relative-color-syntax": "^2.0.9",
-    "@tinacms/cli": "^1.5.45",
     "@toycode/markdown-it-class": "^1.2.4",
     "autoprefixer": "^10.4.13",
     "clean-css": "^5.3.3",
