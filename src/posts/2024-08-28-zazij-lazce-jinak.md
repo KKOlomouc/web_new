@@ -1,13 +1,13 @@
 ---
-title: Zažít Lazce jinak - sousedská slavnost v neděli 22.9.
-description: Sousedská slavnost pro udržitelnější sídliště - zveme všechny sousedy do našeho „centrálního“ parčíku u ZŠ Demlova v sobotu 21. 9. 2024 od 14.00 do 18.00 na přátelské setkání a zajímavý program.
+title: ODLOŽENO! Zažít Lazce jinak - sousedská slavnost v neděli 22.9.
+description: Sousedská slavnost pro udržitelnější sídliště - zveme všechny sousedy do našeho „centrálního“ parčíku u ZŠ Demlova na přátelské setkání a zajímavý program. Akce byla z důvodu řešení následků povodně odložena!
 date: 2024-08-28T22:00:00.000Z
 draft: false
 ---
 
 {% eleventyImage "./src/assets/images/blog/zlj_header.webp", "Zažít Lazce jinak", "" %}
 
-> Sousedská slavnost pro udržitelnější sídliště - zveme všechny sousedy do našeho „centrálního“ parčíku u ZŠ Demlova v sobotu 21. 9. 2024 od 14.00 do 18.00 na přátelské setkání a zajímavý program.
+> Sousedská slavnost pro udržitelnější sídliště - zveme všechny sousedy do našeho „centrálního“ parčíku u ZŠ Demlova na přátelské setkání a zajímavý program. Akce byla z důvodu řešení následků povodně odložena!
 
 Klima se rychle mění a za našich životů už nikdy nebude jako dřív. Mnohé odbornice a odborníci upozorňují, že náš dosavadní způsob života se musí rychle změnit, máme-li mít šanci změnám aspoň trochu úspěšně čelit. A jednou z nejdůležitějších změn je naučit se žít zase spolu jako sousedstvo a bránit se tak tlaku byznysu, který má rád jednotlivé spotřebitele.
 
