@@ -1,5 +1,5 @@
 ---
-title: ODLOŽENO! Zažít Lazce jinak - sousedská slavnost v neděli 22.9.
+title: ODLOŽENO NA JARO! Zažít Lazce jinak - sousedská slavnost v neděli 22.9.
 description: Sousedská slavnost pro udržitelnější sídliště - zveme všechny sousedy do našeho „centrálního“ parčíku u ZŠ Demlova na přátelské setkání a zajímavý program. Akce byla z důvodu řešení následků povodně odložena!
 date: 2024-08-28T22:00:00.000Z
 draft: false
